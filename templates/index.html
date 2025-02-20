@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Diary</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+    <h1>Daily Diary</h1>
+    <form id="diaryForm" action="/save" method="POST">
+        <h2>Morning</h2>
+        <label for="schedule">Today's Schedule:</label>
+        <textarea id="schedule" name="schedule" placeholder="Enter your schedule..."></textarea>
+
+        <label for="wakeUpTime">Wake-Up Time:</label>
+        <input type="time" id="wakeUpTime" name="wakeUpTime">
+
+        <label for="verse">Verse Memorized:</label>
+        <textarea id="verse" name="verse" placeholder="Enter the verse..."></textarea>
+
+        <label for="quote">Quote of the Day:</label>
+        <textarea id="quote" name="quote" placeholder="Enter the quote..."></textarea>
+
+        <h2>Evening</h2>
+        <label for="reflections">Reflections on the Day:</label>
+        <textarea id="reflections" name="reflections" placeholder="What went well today?"></textarea>
+
+        <label for="aspects">Key Aspects of the Day:</label>
+        <textarea id="aspects" name="aspects" placeholder="Enter key aspects..."></textarea>
+
+        <label for="specialReflections">Special Reflections to Remember:</label>
+        <textarea id="specialReflections" name="specialReflections" placeholder="Enter special reflections..."></textarea>
+
+        <h2>Sadhana</h2>
+        <label for="chanting">Chanting:</label>
+        <textarea id="chanting" name="chanting" placeholder="Enter chanting details..."></textarea>
+
+        <label for="reading">Reading:</label>
+        <textarea id="reading" name="reading" placeholder="Enter reading details..."></textarea>
+
+        <label for="art">A.R.T (Any Reflective Thought):</label>
+        <textarea id="art" name="art" placeholder="Enter reflective thoughts..."></textarea>
+
+        <button type="submit">Save Diary</button>
+    </form>
+</body>
+</html>

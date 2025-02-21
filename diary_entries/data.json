@@ -1,0 +1,80 @@
+{
+    "2025-02-20": {
+        "schedule": [
+            {
+                "time": "22:20",
+                "task": "hello"
+            },
+            {
+                "time": "22:21",
+                "task": "oro"
+            }
+        ],
+        "wakeUpTime": "22:24",
+        "verse": "mam hi phartha",
+        "quote": "hare krishna",
+        "reflections": "non",
+        "chanting": "0"
+    },
+    "2025-02-22": {
+        "schedule": [
+            {
+                "time": "05:00",
+                "task": "Chanting"
+            },
+            {
+                "time": "06:00",
+                "task": "Reading RL  - theory"
+            },
+            {
+                "time": "07:00",
+                "task": "Lilamrita"
+            },
+            {
+                "time": "07:15",
+                "task": "RL - theory"
+            },
+            {
+                "time": "10:00",
+                "task": "664"
+            },
+            {
+                "time": "10:30",
+                "task": "NCL -- See Practice Problem Solutions"
+            },
+            {
+                "time": "12:45",
+                "task": "EE675 exam"
+            },
+            {
+                "time": "15:30",
+                "task": "HSS"
+            },
+            {
+                "time": "16:30",
+                "task": "Lilamrita"
+            },
+            {
+                "time": "17:00",
+                "task": "HSS"
+            },
+            {
+                "time": "19:00",
+                "task": "Update Dairy"
+            },
+            {
+                "time": "21:00",
+                "task": "Return and Read Krishna Book/Listen B.G lecture"
+            },
+            {
+                "time": "21:45",
+                "task": "Sleep after reciting Narayana Kavacha"
+            }
+        ],
+        "wakeUpTime": "04:02",
+        "verse": "--",
+        "quote": "",
+        "reflections": "",
+        "chanting": ""
+    }
+}

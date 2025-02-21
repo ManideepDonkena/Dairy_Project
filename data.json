@@ -1,0 +1,44 @@
+{
+    "2025-02-20": {
+      "schedule": [
+        {
+          "time": "06:00",
+          "task": "Morning Yoga"
+        },
+        {
+          "time": "07:00",
+          "task": "Breakfast"
+        },
+        {
+          "time": "08:00",
+          "task": "Work on Project"
+        }
+      ],
+      "wakeUpTime": "05:30",
+      "verse": "John 3:16 - For God so loved the world...",
+      "quote": "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt",
+      "reflections": "Had a productive day, completed most of the tasks.",
+      "chanting": "Chanted 108 times in the morning and evening."
+    },
+    "2025-02-21": {
+      "schedule": [
+        {
+          "time": "06:00",
+          "task": "Morning Yoga"
+        },
+        {
+          "time": "07:00",
+          "task": "Breakfast"
+        },
+        {
+          "time": "08:00",
+          "task": "Work on Project"
+        }
+      ],
+      "wakeUpTime": "05:30",
+      "verse": "John 3:16 - For God so loved the world...",
+      "quote": "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt",
+      "reflections": "Had a productive day, completed most of the tasks.",
+      "chanting": "Chanted 108 times in the morning and evening."
+    }
+  }
